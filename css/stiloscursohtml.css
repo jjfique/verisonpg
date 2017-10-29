@@ -1,48 +1,42 @@
+* {
+	border: 0;
+	margin:0;
+	padding:0;
+}
+.general {
+    
+height: 100%
+
+  
+}
+
 body{
-	background-color:   #B3B3B3;
-	margin: 0px;
-	padding:0px;
+	background: #B3B3B3;
+	margin: 0;
+	padding:0;
+
 }
-
-
 header {
-	width: auto;
-	height: auto;
-	margin: auto;
+	background: #FFFFFF;
 	color: white;
-	padding: 0;
-	background: #FFFFFF
-}
-.limpiar{
-	clear: both;
-}
-.logo{
-	float: left;
-}
-.logo2{
-	float: right;
+
 }
 h1{
-	background: #005883;
-	margin: 0%;
-	border: 0px;
-	padding: 0px;
-	width: 100%;
-}
+	background:#005883;
+	text-align: center;
 
+}
 .menu{
 	height: 40px;
 	background:   #F0B429;
-	
-	
-}
-nav ul{
-	list-style: none;
+	}
+nav ul {
+list-style: none;
 	margin: 0px;
 	padding: 0px;
 }
 nav ul li {
-	float: left;
+	display: inline-block;
 }
 nav ul li a {
 	text-decoration: none;
@@ -50,7 +44,6 @@ nav ul li a {
 	color: white;
 	padding: 0px 10px;
 	display: block;
-	
 }
 nav ul li a:hover {
 	background-color: #F47920
@@ -61,25 +54,69 @@ nav ul li a:hover {
 
 }
 
+section{
 
-article section {
-	background: #005883;
-	margin : 10% ;
-	border: 0px;
-	padding: 0px;
-	width: 40%;
-	display:inline-block;
-	
-	
+
+	background: #FFFFFF;
+	width:75%;
+	float: left;
+
 }
 
 
+article{
+	margin: 10px 40px 50px 50px;
+	border: 2px solid black;
+}
+h2{
+	
+	margin:50px;
+	text-align: center
+
+}
+p{
+	text-align: justify;
+	padding: 10px 60px;
+	border: 2px red
+}
+#maqueta{
+width:538px;
+height:379px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
 aside{
+	border: 2px solid black;
+	float: right;
+	height: 400px;
 
-float: right;
 }
-.tw{
-width:150px;
-height:150px;
-}
+footer{
+	
+	height: 70px;
+	background:   #000000;
+	color: #B3B3B3;
+	float: left;
 
+
+
+}
+div.logpie{
+	 
+	width:27.55%;
+	padding-left: 1.45%;
+	float:left;
+	
+}
+div.info 
+ {
+    width: 36%;
+    font-size: 11px;
+    text-align: left;
+    line-height: 14px;
+    float: right;
+
+}
