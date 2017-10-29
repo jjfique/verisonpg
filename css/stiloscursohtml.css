@@ -91,7 +91,21 @@ margin-right: auto;
 aside{
 	border: 2px solid black;
 	float: right;
-	height: 400px;
+	height: 450px;
+	background: white;
+
+}
+#asidetitu{
+	text-align: center;
+	color: #333333;
+	font-family: times, serif; 
+	font-size:22px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.contador{
+border: 2pc solid white;
+display: block;
 
 }
 footer{
